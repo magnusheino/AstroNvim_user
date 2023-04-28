@@ -9,18 +9,24 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  "simrat39/rust-tools.nvim", -- add lsp plugin
-  {
-    "williamboman/mason-lspconfig.nvim",
-    opts = {
-      ensure_installed = { "rust_analyzer" },
-    },
-  },
-  {
-    "catppuccin/nvim",
-    as = "catppuccin",
-    config = function() 
-      require("catppuccin").setup {}
-    end,
-  },
+  -- "simrat39/rust-tools.nvim", -- add lsp plugin
+  -- {
+  --   "williamboman/mason-lspconfig.nvim",
+  --   opts = {
+  --     ensure_installed = { "rust_analyzer" },
+  --   },
+  -- },
+  -- {
+  --   "catppuccin/nvim",
+  --   as = "catppuccin",
+  --   config = function() 
+  --     require("catppuccin").setup {}
+  --   end,
+  -- },
+--   {
+--     "simrat39/inlay-hints.nvim",
+--      config = function()
+--        require("inlay-hints").setup()
+--      end,
+--   },
 }
